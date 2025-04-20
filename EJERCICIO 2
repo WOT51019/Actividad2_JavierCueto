@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Pre y Code</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Vincula el CSS -->
+</head>
+<body>
+    <p>Este es un</p>
+    <p>&nbsp;&nbsp;ejemplo &nbsp;&nbsp;de &nbsp;&nbsp;texto</p>
+    <p>&nbsp;&nbsp;preformateado</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La marca <span class="resaltado">pre</span> &nbsp;&nbsp;preserva&nbsp;&nbsp; espacios&nbsp; en&nbsp; blanco</p>
+    <p>&nbsp;&nbsp;y saltos de línea.</p>
+
+    <pre>
+La marca <span class="resaltado">pre</span> también es buena para mostrar código de programación:
+
+for i=1 to 10
+    print i
+next i
+    </pre>
+
+    <p><span class="subrayado">También se puede usar la marca <span class="resaltado">code</span></span></p>
+    <p><code>for i=1 to 10 print i next i</code></p>
+    <p>pero <span class="resaltado">code</span> no respeta espaciado ni saltos de línea.</p>
+</body>
+</html>
+----------------------------------
+/* Estilo general */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    line-height: 0.3;
+    margin: 20px;
+}
+
+/* Colocamos el subrayado superior*/
+.superior{
+    border-top:1px solid black;
+    display: inline-block;
+    line height:0.20px;
+    z-index: 1;
+    font-weight: bold;
+}
+
+/* Resalta la palabra "pre" y "code" */
+.resaltado {
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(65, 11, 214);
+}
+.subrayado {
+    border-top:1px solid black;
+    display: inline-block;
+    line height:0.20px;
+    z-index: 1;
+    font-weight: bold;
+    
+}
+
+/* Estilo para la etiqueta <pre> */
+pre {
+    
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre-wrap; /* Asegura que se respeten espacios y saltos */
+    
+}
+
+.susup {
+    border-top:1px solid black;
+    display: inline-block;
+    line height:0.20px;
+    z-index: 1;
+    font-weight: bold;
+    
+    
+}
+
+/* Estilo para la etiqueta <code> */
+code {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(1, 1, 2);
+}
