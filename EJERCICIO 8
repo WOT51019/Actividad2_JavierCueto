@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>CONTRA <span class="sans">COMIC SANS</span></h1>
+    <h2>ORIGEN</h2>
+    <section>
+      <div class="texto">
+           <p><span class="comic">Comic Sans</span> es un tipo de letra creado en <span class="año">1994</span> por el diseñador <span class="remark">Vincent Connare</span>, empleado de Microsoft. El tipo de letra imita el estilo de los diálogos de los tebeos,<br>
+             que en Estados Unidos es un aspecto muy cuidado y llevado a cabo por especialistas. Concretamente, Connare dice haberse inspirado por dos tebeos clave de la evolución<br>
+             del comic en los años 80: <span class="remark">Watchmen</span> y <span class="remark">El regreso del señor de la noche.</span>
+        </p>
+        <p>Inicialmente, ese tipo de letra iba a incluirse en uno de los proyectos de Microsoft más criticado y ridiculizado:<span class="naranja"><strong>Microsoft Bob</strong></span> . Bob era un programa creado para<br>
+            <span class="naranja"><strong> Windows 3.1</strong></span> que pretendía ser un nuevo tipo de interface de usuario diseñado para novatos y que en vez del escritorio de Windows mostraba las habitaciones de una<br>
+           casa en la que los objetos abrían las aplicaciones. La aparición de <span class="naranja"><strong>Windows 95</strong></span> permitió a Microsoft enterrar rápidamente un producto que nunca debió salir a la luz. En<br>
+           2006, en una lista de los 25 peores productos tecnológicos de la historia publicada por la revista <span class="remark"><strong>PCWorld</strong></span>, Bob todavía se mantenía en el séptimo lugar.
+        </p>
+      </div>
+    </section>
+    
+    <h2>DIFUSIÓN</h2>
+    <section>
+        <div class="texto">
+            <p><span class="comic">Comic Sans</span> se diseñó para los globos de ayuda al usuario en Bob, pero no llegó a utilizarse allí. Pero sí se incluyó en el <span class="naranja"><strong>Windows 95</strong></span> Plus! Pack, un CD de<br>
+               ampliación de WIndows 95, que incluía entre otros, la primera versión de Internet Explorer. Todo el contenido del Plus! Pack se incluyó en <span class="naranja"><strong>Windows 98</strong></span> y en otros<br>
+               productos de Microsoft (<span class="naranja"><strong>Publisher, Internet Explorer, MS Comic chat</strong></span>, etc.), entre otros el <span class="naranja"><strong>Core Fonts for the Web</strong></span>, un paquete de fuentes que Microsoft distribuyó<br>
+               gratuitamente entre <span class="año">1996</span> y <span class="año">2002</span>, pero cuya licencia ha permitido que se siga distribuyendo y usando, no sólo en Windows, sino en cualquier sistema operativo.
+
+            </p>
+        </div>
+    </section>
+</body>
+</html>
+------------------------------------------------
+body{
+    background-color:rgb(142, 168, 184) ;
+    vertical-align: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    text-align: end;
+    margin-right: 10%;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.sans{
+    color: red;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.comic{
+    color: red;
+}
+.año{
+    color: rgb(209, 152, 7);
+}
+.remark{
+    background-color: aliceblue;
+    color: green;
+    font-style: italic;
+}
+.naranja{
+    color: rgb(165, 113, 17);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
