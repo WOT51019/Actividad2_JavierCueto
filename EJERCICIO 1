@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO 1</title>
+    <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+    <h1 class="text-h1">Este es el encabezado 1</h1>
+    <h2 class="text-h2">Este es el encabezado 2</h2>
+    <h3 class="text-h3">Este es el encabezado 3</h3>
+    <h4 class="text-h4">Este es el encabezado 4</h4>
+    <h5 class="text-h5">Este es el encabezado 5</h5>
+    <h6 class="text-h6">Este es el encabezado 6</h6>
+    
+</body>
+</html>
+--------------
+body {
+    background-color: rgb(255, 255, 255);
+}
+.text-h1 {
+    color: aqua;
+}
+.text-h2 {
+    color: blue;
+}
+.text-h3 {
+    color: blueviolet;
+}
+.text-h4 {
+    color: rgb(255, 1, 1);
+}
+.text-h5 {
+    color: chocolate;
+}
+.text-h6 {
+    color: deeppink;
+}
