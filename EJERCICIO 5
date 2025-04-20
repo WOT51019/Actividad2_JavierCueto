@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 5 y CSS 3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>HTML 5 y CSS 3</h1>
+
+    <div class="seccion">
+        <h2>HTML 5</h2>
+        <div class="contenido">
+            <img src="html5-logo.svg" alt="Logo HTML5">
+
+            <p> <span class="logo">Logo de HTML 5</span><br>
+
+                <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El <span class="resaltado">28 de octubre de 2014</span></strong> se aprobó la <strong>Recomendación HTML 5</strong>, 
+                culminando así diez años de trabajo. En 2004 se formó el <strong>WHATWG</strong>, un grupo informal de individuos<br>
+                y empresas decididos a impulsar el desarrollo de HTML, que se encontraba<br>
+                bloqueado en el W3C desde el año 2000.
+                En el año 2007 el W3C retoó el trabajo sobre el HTML y siete años después se alcanzó el<br>
+                objetivo.<br>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pero el HTML 5 no era más que el primer paso. El <span class="fecha">1 de Noviembre de 2016</span> se<br>
+                aprobó la recomendación HTML 5.1, ampliando y clarificando el HTML 5, y el W3C ya está<br>
+                trabajando en el HTML 2, previsto para finales 2017.
+            </p>
+
+        </div>
+    </div>
+
+    <div class="seccion">
+        <h2>CSS 3</h2>
+        <div class="contenido">
+            <img src="css3-logo.svg" alt="Logo CSS3">
+            <p><span class="css">Logotipo de CSS3</span><br>
+
+                Desde la aprobación de <strong>CSS 2</strong> en 1998, el <strong>W3C</strong> ha estado trabajando en la<br>
+                siguiente generación de las hojas de estilo, las <strong>CSS 3</strong>.<br>
+                <strong>Las Recomendaciones CSS 3</strong> se planificaron como un conjunto de recomendaciones en vez de un<br>
+                documento único. El proceso ha resultado largo y poco productivo: las primeras<br>
+                recomendaciones CSS 3 no se aprobaron hasta 2011.<br>
+
+                Aunque los navegadores admiten muchas características de CSS 3, la<br>
+                publicación de HTML 5 no ha acelerado el desarrollo de CSS 3.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+-------------------------------------------------
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10%;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.seccion {
+    background: #ccc;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+h2 {
+    background: #666;
+    color: white;
+    padding: 10px;
+    margin: -20px -20px 10px -20px;
+    text-align: left;
+}
+
+.contenido {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 20px;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    margin-left: 10%;
+}
+
+p {
+    float: left;
+    text-align: left;
+    max-width: 600px;
+}
+
+.resaltado {
+    color: red;
+    font-weight: bold;
+}
+.fecha {
+    font-style: italic;
+    color: red;
+}
+.logo {
+    color: yellow;
+}
+.css {
+    color: yellow;
+}
