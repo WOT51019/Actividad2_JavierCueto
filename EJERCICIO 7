@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CURRÍCULUM VITAE ATANAGILDO AGUIRRE PACHECO</h1>
+        <p>Este es un ejemplo de Mini-Currículum Vitae. Cualquier parecido con la realidad es pura coincidencia.</p>
+
+        <section>
+            <h2>Datos personales</h2>
+            <div class="datos">
+                <p><strong class="title">Nombre y Apellidos:</strong> Atanagildo Aguirre Pacheco</p>
+                <p><strong class="title">Dirección:</strong> C./ Toledo, nº 13, p. 7 - 46027 Valencia</p>
+                <p><strong class="title">Teléfono:</strong> 963.141.592 - 626.628.208</p>
+                <p><strong class="title">Email:</strong> atangildo.aguirre@example.org</p>
+                <p><strong class="title">Nacionalidad:</strong> Español</p>
+                <p><strong class="title">Fecha de nacimiento:</strong> 2 de abril de 1978</p>
+                <p><strong class="title">D.N.I. número:</strong> 27.182.818-S</p>
+            </div>
+        </section>
+
+
+
+        <section>
+            <h2>Experiencia laboral</h2>
+            <div class="fecha">
+                <p><strong class="exp">2004-2007:</strong> Jomepeix SL. C./ Mar Caspio, nº 371 (Castellón). Empresa dedicada a la creación de páginas web. Ocupé el puesto de comercial.</p>
+                <p><strong class="exp">2000-2004:</strong> Yocto Programas S.L. C./ Amazonas, nº 6800 (Alicante). Empresa dedicada a la programación a medida de aplicaciones de gestión. Ocupé el puesto de programador en Visual Basic.</p>
+                <p><strong class="exp">1998-2000:</strong> JCN Informática S.L. C./ Kilimanjaro, nº 5895 (Valencia). Empresa dedicada al alojamiento web. Ocupé el puesto de atención telefónica a clientes.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Educación y formación.</h2>
+            <div class="edu">
+                <p><strong class="for">2007-2008:</strong> Instituto de Formación Profesional Abastos (Valencia). Ciclo Formativo de Grado Superior<span class="daw">Desarrollo de Aplicaciones Web</span></p>
+                <p><strong class="for">1996-1998:</strong> Instituto de Formación Profesional Vicenteta (Patraix). Ciclo Formativo de Grado Superior Administración de Sistemas Informáticos.</p>
+                <p><strong class="for">1992-1996:</strong> Instituto de Bachillerato Bernat i Baldoví (Valencia). Bachillerato Unificado Polivalente y Curso de Orientación Universitaria.</p>
+            </div>
+        </section>
+    </div>
+    
+</body>
+</html>
+-----------------------------------------------
+body {
+    background-color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+
+h2 {
+    color: red;
+    background-color: #888888;
+}
+
+p {
+    background-color:#d3d3d3 ;
+}
+
+.datos {
+    background-color: #d3d3d3;  /* Un solo fondo gris */
+    vertical-align: 1.5px;
+}
+.title {
+    color: blue;
+    text-decoration: underline;
+}
+
+.fecha {
+    margin-top: 5px;
+    background-color:#d3d3d3 ;
+}
+.exp {
+    color: green;
+}
+
+.edu {
+    background-color: #d3d3d3;
+}
+.for{
+    color: green;
+}
+.daw{
+    background-color: yellow;
+}
