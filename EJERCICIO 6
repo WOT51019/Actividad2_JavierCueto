@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">     
+    </head>
+<body>
+  <div class="container">
+    <h1>THE JARGON FILE</h1>
+       <section>
+         <h2>AFAIK</h2>
+           <p> 
+           Abreviatura de As Far As I Know ["por lo que yo sé"]. AFAIK sugiere que el autor sabe que su conocimiento es limitado. Existe la variante AFAICT [As Far As I<br>
+           Can Tell, "Por lo que yo puedo decir"] que sugiere que el autor cree tener conocimientos suficientes sobre el tema, pero que no se pueden emitir opiniones<br>
+           concluyentes.
+          </p>
+       </section>
+
+       <section>
+         <h2>BSOD</h2>
+           <p>
+            Abreviatura de Blue Screen of Death ["pantalla azul de la muerte"]. Proviene de una expresión anterior ["pantalla negra de la muerte"], pero mucho más popular.<br>
+            Se refiere a la pantalla azul que muestra Windows cuando deja de funcionar, por culpa de una aplicación o del propio sistema operativo. En esa pantalla suelen<br>
+            aparecer códigos hexadecimales, con fines seguramente decorativos. Como prueba de la popularidad del término, sirva el siguiente poema del concurso de<br>
+            Haikus Salon:<br>
+
+             <span class="parrafo">Windows NT se ha colgado<br>
+        
+              Soy la pantalla azul de la muerte<br>
+        
+              Nadie oirá tus gritos.</span>
+           </p>
+        </section>
+
+        <section>
+           <h2>FAQ</h2>
+            <p>
+              Abreviatura de Frequently Asked Question ["pregunta planteada a menudo"]. Se refiere a las preguntas que se plantean una y otra vez en listas de correo, foros,<br>
+              etc, pero también se refiere a los documentos que recopilan ese tipo de preguntas. Hace años, este tipo de documentos se enviaban periódicamente en los<br>
+              grupos de noticias (newsgroups) para evitar la repetición innecesaria de las mismas preguntas. Posteriormente, este tipo de documentos (organizados mediante<br>
+              preguntas y respuestas) se incorporaron también a los sitios web para ofrecer información a los visitantes.<br>
+            </p>
+        </section>
+  </div>
+
+</body> 
+--------------------------------------------
+body {
+    background-color: #c5e0eb;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+h1 {
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2 {
+    background-color: #3f99bf;
+}
+
+p {
+    font-size: 14px;
+    text-align: justify;
+
+}
+
+.parrafo {
+    margin-left: 8%;
+}
