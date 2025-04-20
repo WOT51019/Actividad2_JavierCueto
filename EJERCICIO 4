@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="cv-container">
+        <h1>CURRÍCULUM VITAE DE CHEMA PAMUNDI</h1>
+        <p class="subtitulo">Este es un ejemplo de Mini-Currículum Vitae. Cualquier parecido con la realidad es pura coincidencia.</p>
+
+        <h2>Datos personales</h2>
+        <div class="seccion">
+            <p><strong>Nombre y Apellidos:</strong> Chema Pamundi</p>
+            <p><strong>Dirección:</strong> C./ Luis Moya, nº 13, p. 7 - 33203 - Gijón</p>
+            <p><strong>D.N.I.:</strong> 12.345.678-S</p>
+            <p class="correo"><strong>Correo electrónico:</strong> cpamundi@lalaboral.es</p>
+        </div>
+
+        <h2>Educación y formación</h2>
+        <div class="seccion">
+            <p><strong>2015-2017:</strong> Ciclo Formativo de Grado Superior Desarrollo de Aplicaciones Web CIFP La Laboral (Gijón).</p>
+            <p><strong>2013-2015:</strong> Ciclo Formativo de Grado Medio de Actividades Comerciales. CIFP La Laboral (Gijón).</p>
+        </div>
+
+        <h2>Capacidades y aptitudes personales</h2>
+        <div class="seccion">
+            <h3>Idiomas</h3>
+            <p><strong>Inglés:</strong> Nivel Alto. Título nivel C1, por la Escuela Oficial de Idiomas de Gijón.</p>
+        </div>
+    </div>
+
+</body>
+</html>
+-----------------------------------
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3dade;
+    margin: 0;
+    padding: 20px;
+}
+
+.cv-container {
+   
+    background-color:#d3dade;
+    
+    
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subtitulo {
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    background-color:#7b919d;
+    color: white;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.seccion {
+    padding: 10px;
+    background-color: #F2F2F2;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.correo {
+    font-style: italic;
+    font-weight: bold;
+}
