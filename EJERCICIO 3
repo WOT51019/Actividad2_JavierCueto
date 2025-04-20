@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página</title>
+  <!-- Enlazamos el archivo CSS externo -->
+  <link rel="stylesheet" href="estilos.css">
+
+    
+</head>
+<body>
+    <p>Mi color favorito es el <span class="interlineado">azul</span> <span class="verde">verde</span>!</p>
+    <p><span class="frase">Hay que</span><span class="frase1">tener en cuenta que</span> <span class="frase2"> los navegadores</span> 
+      <span class="frase3">tachan</span> <span class="frase4">el texto</span> 
+      <span class="frase5">marcado con</span> <span class="frase6">del</span><span class="frase7">(del) y subrayan el marcado con</span>
+      <span class="frase8">ins.</span>
+    </p>
+
+    
+</body>
+</html>
+--------------------------------------------
+body {
+    font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration-color: black;
+}
+
+.interlineado {
+    text-decoration: line-through;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    position:relative;
+    top: 20px;
+    color: rgb(8, 92, 249);
+}
+
+.verde {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #0db70d;
+    font-size: 35px;
+    text-decoration: underline;
+    position: relative;
+    bottom: 5px;
+}
+
+.frase {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:xx-small;
+}
+
+.frase1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:small;
+}
+
+.frase2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-small;
+    position: relative;
+    bottom: 5px;
+}
+
+.frase3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+
+}
+
+.frase4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:x-small;
+    position: relative;
+    top: 3px;
+}
+
+.frase5 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+.frase6 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    text-decoration:line-through;
+    color: blue;
+    position: relative;
+    top: 15px;
+}
+
+.frase7 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+.frase8 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #0db70d;
+    position: relative;
+    bottom: 15px;
+    text-decoration: underline;
+}
