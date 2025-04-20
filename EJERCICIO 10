@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CITAS DE VIRGILIO</h1>
+        <p><span class="parrafo"><strong>Publio Virgilio Marón</strong> (70 a.C. - 19 a.C.) fue un poeta romano. Sus principales obras fueron 
+        <cite>La<br>Eneida</cite>, <cite>las Bucólicas</cite> y <cite>las Geórgicas</cite>. Algunos de sus versos se han convertido en citas célebres.</span></p>
+    </header>
+    
+    <section class="citas">
+        <div class="cita">
+            <p class="latin"><strong>Ab Iove principium.</strong></p>
+            <p class="traduccion">Empieza por lo importante.</p>
+        </div>
+        <div class="cita">
+            <p class="latin"><strong>Felix qui potuit rerum cognoscere causas.</strong></p>
+            <p class="traduccion">Dichoso aquel que puede conocer las causas de las cosas.</p>
+        </div>
+        <div class="cita">
+            <p class="latin"><strong>Mens agitat molem.</strong></p>
+            <p class="traduccion">La mente mueve la materia.</p>
+        </div>
+        <div class="cita">
+            <p class="latin"><strong>Nimium ne crede colori.</strong></p>
+            <p class="traduccion">No confíes mucho en los colores.</p>
+        </div>
+        <div class="cita">
+            <p class="latin"><strong>Possunt quia posse videntur.</strong></p>
+            <p class="traduccion">Pueden los que creen que pueden.</p>
+        </div>
+    </section>
+</body>
+</html>
+-------------------------------------------
+body {
+    background-color:rgb(171, 173, 172);
+    font-family:Arial, Helvetica, sans-serif
+    padding: 20px;
+}
+header {
+    text-align: center;
+}
+h1 {
+    font-family:"script normal";
+    letter-spacing: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+
+.parrafo{
+    
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300; /* Light */
+        font-style: italic; /* Italic */
+}
+cite{
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1em;
+
+    
+}
+.citas {
+    margin-top: 20px;
+}
+.cita {
+    font-family: "fixedsys normal";
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.latin {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.traduccion {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic; /* Italic */
+    color: rgb(42, 42, 42);
+    text-align: right;
+    display: block;
+}
